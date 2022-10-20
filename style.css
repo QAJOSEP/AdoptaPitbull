@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .landing {
+    min-height: 150vh;
+    background: url("./hero.jpg");
+    background-size: cover;
+    padding: 2rem 5rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  .nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+  }
+  #logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  
+  .big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: "Lobster", cursive;
+    color: rgb(35, 158, 193);
+  }
+  
+  .intro {
+    background: rgb(222, 175, 33);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    background: rgb(222, 175, 33);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    background: rgb(222, 175, 33);
+    overflow: hidden;
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+  
+  .media ul {
+    list-style: none;
+    position: fixed;
+    right: 20px;
+    top: 63%;
+    padding: 10px 10px;
+  }
+  
+  .media ul li {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 24px 0;
+    transition: .3s;
+  }
+  
